@@ -61,7 +61,7 @@ export default function Navbar(props) {
               className="form-check-label"
               htmlFor="flexSwitchCheckDefault"
             >
-              Enable DarkMode
+              {props.mode === "dark" ? "Disable" : "Enable"} DarkMode
             </label>
           </div>
         </div>
